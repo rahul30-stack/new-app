@@ -1,0 +1,30 @@
+.btn{
+
+    margin-left: 50%;
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+      width: 100px;
+      height: 20px;
+      line-height: 12px;
+      padding: 0;
+      border: none;
+    }
+    
+    .searchTerm {
+        width: 100%;
+        border: 5px solid #00B4CC;
+        border-right: none;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+      }
+      .searchTerm:focus{
+        color: #00B4CC;
+      }
+      .search {
+        width: 100%;
+        position: relative;
+        display: flex-end;
+      }
